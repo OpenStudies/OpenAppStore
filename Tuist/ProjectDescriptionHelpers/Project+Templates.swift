@@ -14,7 +14,7 @@ extension Project {
         targets += additionalTargets.flatMap({ makeFrameworkTargets(name: $0, platform: platform) })
         return Project(name: name,
                        organizationName: "tuist.io",
-                       packages: [.package(url: "https://github.com/pointfreeco/swift-composable-architecture", .exact("0.40.2"))], targets: targets)
+                       targets: targets)
     }
 
     // MARK: - Private
@@ -28,7 +28,7 @@ extension Project {
                 infoPlist: .default,
                 sources: ["Targets/\(name)/Sources/**"],
                 resources: [],
-                dependencies: [])
+                dependencies: [.external(name: "ComposableArchitecture")])
         let tests = Target(name: "\(name)Tests",
                 platform: platform,
                 product: .unitTests,
