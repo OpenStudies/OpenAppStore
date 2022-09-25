@@ -14,7 +14,7 @@ extension Project {
         targets += additionalTargets.flatMap({ makeFrameworkTargets(name: $0, platform: platform) })
         return Project(name: name,
                        organizationName: "tuist.io",
-                       targets: targets)
+                       packages: [.package(url: "https://github.com/pointfreeco/swift-composable-architecture", .exact("0.40.2"))], targets: targets)
     }
 
     // MARK: - Private
