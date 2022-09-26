@@ -1,6 +1,7 @@
 # OpenAppStore
 Apple AppStore Api를 이용한 학습
-[App Store Connect API / App Store] (https://developer.apple.com/documentation/appstoreconnectapi/app_store)
+
+[App Store Connect API/App Store](https://developer.apple.com/documentation/appstoreconnectapi/app_store)
 
 # 기본설정
 
