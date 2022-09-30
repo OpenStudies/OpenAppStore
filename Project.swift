@@ -26,4 +26,5 @@ let localHelper = LocalHelper(name: "MyPlugin")
 // Creates our project using a helper function defined in ProjectDescriptionHelpers
 let project = Project.app(name: "OpenAppStore",
                           platform: .iOS,
-                          additionalTargets: ["OpenAppStoreKit", "OpenAppStoreUI"])
+                          additionalTargets: ["OpenAppStoreKit", "OpenAppStoreUI"],
+                          externalDependencies: [.external(name: "ComposableArchitecture")])

@@ -1,6 +1,8 @@
 # OpenAppStore
 Apple AppStore Api를 이용한 학습
 
+[App Store Connect API/App Store](https://developer.apple.com/documentation/appstoreconnectapi/app_store)
+
 # 기본설정
 
 Tuist 기반 SwitUI 템플릿으로 프로젝트 생성 함.
