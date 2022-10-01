@@ -14,8 +14,9 @@ let project = Project(
     name: name,
     organizationName: "com.openstudies",
     targets:
-        Project.staticFrameworkTargets(
+        Project.makeTargets(
             name: name,
-            frameworkDependencies: [.external(name: "ComposableArchitecture")]
+            product: .staticFramework,
+            targetependencies: [.external(name: "ComposableArchitecture")]
         )
 )
