@@ -5,7 +5,7 @@ import OpenAppStoreUI
 struct OpenAppStoreApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
