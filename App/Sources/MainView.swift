@@ -10,6 +10,10 @@ import Combine
 import Foundation
 import SwiftUI
 
+import Application
+import Home
+import Search
+
 struct MainView: View {
   
   @State private var selectionValue: Int = 0
@@ -30,7 +34,7 @@ struct MainView: View {
           Image(systemName: "house.fill")
         }
       
-      AppView()
+      ApplicationView()
         .tabItem {
           Image(systemName: "square.stack.3d.up.fill")
         }

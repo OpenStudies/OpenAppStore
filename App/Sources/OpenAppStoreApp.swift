@@ -1,5 +1,4 @@
 import SwiftUI
-import OpenAppStoreUI
 
 @main
 struct OpenAppStoreApp: App {
