@@ -4,7 +4,7 @@ let workspace = Workspace(name: "OpenAppStore",
                           projects: [
                             "App/**",
                             "Projects/Home/**",
-                            "Projects/Application/**",
+                            "Projects/Library/**",
                             "Projects/Search/**"
                           ]
 )

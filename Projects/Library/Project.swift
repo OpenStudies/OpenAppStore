@@ -8,7 +8,7 @@
 import ProjectDescription
 import ProjectDescriptionHelpers
 
-private let name = "Application"
+private let name = "Library"
 
 let project = Project(
     name: name,

@@ -19,7 +19,7 @@ let project = Project(
             product: .app,
             targetependencies: [
                 .project(target: "Home", path: .relativeToRoot("Projects/Home")),
-                .project(target: "Application", path: .relativeToRoot("Projects/Application")),
+                .project(target: "Library", path: .relativeToRoot("Projects/Library")),
                 .project(target: "Search", path: .relativeToRoot("Projects/Search"))
             ]
         )
