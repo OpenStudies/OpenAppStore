@@ -28,10 +28,16 @@ struct MainView: View {
   
   var body: some View {
     TabView(selection: $selectionValue) {
+        LibraryView()
+            .tabItem {
+                Image(systemName: "music.note.list")
+            }
+        
       HomeView()
         .tabItem {
           Image(systemName: "house.fill")
         }
+        
       SearchView()
         .tabItem {
           Image(systemName: "magnifyingglass")
