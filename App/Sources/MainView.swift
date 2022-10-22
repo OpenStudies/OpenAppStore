@@ -10,7 +10,7 @@ import Combine
 import Foundation
 import SwiftUI
 
-import Application
+import Library
 import Home
 import Search
 
@@ -33,12 +33,6 @@ struct MainView: View {
         .tabItem {
           Image(systemName: "house.fill")
         }
-      
-      ApplicationView()
-        .tabItem {
-          Image(systemName: "square.stack.3d.up.fill")
-        }
-      
       SearchView()
         .tabItem {
           Image(systemName: "magnifyingglass")
